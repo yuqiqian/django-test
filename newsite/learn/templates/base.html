@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{% block title %}Default Title{% endblock %} - Yuqi's site</title>
+</head>
+<body>
+ 
+{% include 'nav.html' %}
+ 
+{% block content %}
+<div>There puts default content</div>
+{% endblock %}
+ 
+{% include 'bottom.html' %}
+ 
+{% include 'tongji.html' %}
+ 
+</body>
+</html>
